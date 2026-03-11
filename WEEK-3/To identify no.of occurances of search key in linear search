@@ -1,0 +1,38 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int arr[100], n, key, i, count = 0;
+
+    cout << "Enter number of elements: ";
+    cin >> n;
+
+    cout << "Enter array elements:\n";
+    for(i = 0; i < n; i++)
+    {
+        cin >> arr[i];
+    }
+
+    cout << "Enter search key: ";
+    cin >> key;
+
+    for(i = 0; i < n; i++)
+    {
+        if(arr[i] == key)
+        {
+            count++;   // count occurrences
+        }
+    }
+
+    if(count > 0)
+    {
+        cout << "Number of occurrences of " << key << " = " << count;
+    }
+    else
+    {
+        cout << "Element not found";
+    }
+
+    return 0;
+}
