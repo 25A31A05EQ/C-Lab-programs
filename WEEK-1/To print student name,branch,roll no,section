@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    string name, branch, section;
+    int rollNumber;
+
+    cout << "Enter student name: ";
+    cin >> name;
+
+    cout << "Enter branch: ";
+    cin >> branch;
+
+    cout << "Enter roll number: ";
+    cin >> rollNumber;
+
+    cout << "Enter section: ";
+    cin >> section;
+
+    cout << "\n--- Student Details ---\n";
+    cout << "Name     : " << name << endl;
+    cout << "Branch   : " << branch << endl;
+    cout << "Roll No. : " << rollNumber << endl;
+    cout << "Section  : " << section << endl;
+
+    return 0;
+}
