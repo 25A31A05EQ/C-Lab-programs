@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+void swap(int a, int b)
+{
+    int temp;
+    temp = a;
+    a = b;
+    b = temp;
+
+    cout << "Inside function (Call by Value): " << a << " " << b << endl;
+}
+
+int main()
+{
+    int x = 10, y = 20;
+
+    swap(x, y);
+
+    cout << "Outside function: " << x << " " << y << endl;
+
+    return 0;
+}
