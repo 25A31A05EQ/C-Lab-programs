@@ -1,2 +1,2 @@
-# C-Lab-programs
+# Cpp-Lab-programs
 semester wise C++ lab assignments and practice programs
